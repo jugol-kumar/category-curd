@@ -5,9 +5,28 @@
 ---
 
 
-#1. Install The package Using Composer On Your Project.
-
--- write here full description about your package. 
+#1. Install The Package Using Composer On Your Project.
 
 
-now i will init git in this package .
+```sh 
+$ composer require jugol-kumar/category-curd
+ ```
+
+
+#2. Using in controller 
+
+```php
+CategoryCrudFacade::generate(\App\Models\User::class, 'your title', 'field name');
+
+// your-title
+```
+
+```php
+// after using this title
+CategoryCrudFacade::generate(\App\Models\User::class, 'your title', 'field name');
+
+// your-title-1
+```
+
+
+
