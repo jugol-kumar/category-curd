@@ -1,7 +1,12 @@
 {
     "name": "jugol-kumar/category-curd",
     "description": "this is an laravel package for generate unlimated parent child categaroy generator",
-    "type": "composer-plugin",
+    "keywords": [
+        "slug",
+        "laravel slug",
+        "first package"
+    ],
+    "homepage": "https://github.com/jugol-kumar/category-curd",
     "license": "MIT",
     "autoload": {
         "psr-4": {
