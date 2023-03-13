@@ -15,7 +15,7 @@ $ composer require jugol-kumar/category-curd
 #2. Publish Vendor Folder And Files
 
 ```sh
-$ php artsian vendor:publish JugolKumar\CategoryCrud\CategoryCrudServiceProvider
+$ php artsian vendor:publish jugol-kumar\category-curd\CategoryCrudServiceProvider
 ```
 
 #3. Using In controller 
