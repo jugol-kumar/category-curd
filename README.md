@@ -12,8 +12,13 @@
 $ composer require jugol-kumar/category-curd
  ```
 
+#2. Publish Vendor Folder And Files
 
-#2. Using in controller 
+```sh
+$ php artsian vendor:publish jugol-kumar/category-curd
+```
+
+#3. Using In controller 
 
 ```php
 CategoryCrudFacade::generate(\App\Models\User::class, 'your title', 'field name');
